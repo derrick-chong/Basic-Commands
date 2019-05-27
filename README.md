@@ -3,16 +3,14 @@ Basic Commands for Git/Terminal
 
 
 # Terminal/Git Commands
-#CLI commands follow the recipe of: command flag argument
-#command is something that does the task
-#flag is a modulation of the command to do a certain behavior and is preceded by typing a hyphen "-"
-#arguments is what the command will modify
-#you can have zero arguments or flags, depending on the command
+CLI commands follow the recipe of: command flag argument
+  command is something that does the task
+  flag is a modulation of the command to do a certain behavior and is preceded by typing a hyphen "-"
+  arguments is what the command will modify
+  you can have zero arguments or flags, depending on the command
 
 #Some useful commands:
-
 pwd #this prints the path to the current working directory
-
 clear #clears command sin the current working directory
 
 ls #lists files and folders in current directory
