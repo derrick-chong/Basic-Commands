@@ -10,7 +10,9 @@ CLI commands follow the recipe of: command flag argument
   you can have zero arguments or flags, depending on the command
 
 #Some useful commands:
+
 pwd #this prints the path to the current working directory
+
 clear #clears command sin the current working directory
 
 ls #lists files and folders in current directory
@@ -32,3 +34,13 @@ touch File_Name #creates empty file called File_name in the working directory
 cp file_name Directory_you_want_to_copy_to #takes the file and copies it
 
 cp -r Directory_name Directory_you_want_to_copy_to #copies entire directory
+
+rm file_name #remove file
+
+rm -r Directory_name #remove all the files in the directory, permanent!
+
+mv file_name directory_name #moves file between directories
+
+mv file_name new_renamed_file #makes a new file that is renamed
+
+echo random_text_here #prints out text, allows you to see what variables are stored
