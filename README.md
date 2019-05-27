@@ -9,7 +9,7 @@ CLI commands follow the recipe of: command flag argument
   arguments is what the command will modify
   you can have zero arguments or flags, depending on the command
 
-#Some useful commands:
+## Some useful commands:
 
 pwd #this prints the path to the current working directory
 
@@ -45,7 +45,7 @@ mv file_name new_renamed_file #makes a new file that is renamed
 
 echo random_text_here #prints out text, allows you to see what variables are stored
 
-# Configuring Git
+## Configuring Git
 #in git you need to link up the github and git
 
 git config --global user.name "Your Name Here"
@@ -57,7 +57,7 @@ git config --list #checks to see if you have user and email in there
 # Git and GitHub commands - Intro
 #There are multiple ways to create GitHub repositories. One, you could start your own repository from scratch, or two, you can "Fork" another user's repository which means to clone their project and work on it.
 
-# To create a Local Copy of a Repo You Made
+## To create a Local Copy of a Repo You Made
 
 #You can create a copy of a repo you made on GitHub to make changes on it 
   #First open Gitbash
@@ -79,13 +79,13 @@ git config --list #checks to see if you have user and email in there
   git remote add origin https://github.com/yourUserNameHere/test-repo.git
   
   
-# Fork Another User's Repo
+## Fork Another User's Repo
 You can fork another user's repo on github. Then you need to make a local copy of it on your computer:
 
 git clone https://github.com/yourUserNameHere/repoNameHere.git
 
 
-# Basic Git Commands
+## Basic Git Commands
 You're in your workspace, in your computer. You are working on files in your computer. The idea is that you start in workspace, you then add a file you work on into your index of files. Then you add those files to your local repository, by "committing" aka "saving' the file. Finally, you may want to add this new version that you saved to your remote repository which is online, on GitHub. So you "push" (a push command) it there.
 
 Suppose you are working on a directory that is under version control by Git. You need to let Git know that they need to be tracked, and they are added to index.
